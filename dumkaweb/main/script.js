@@ -1,3 +1,13 @@
+const urlParams = new URLSearchParams(window.location.search);
+const noIntro = urlParams.get('nointro');
+if (noIntro === 'true') {
+    document.documentElement.style.setProperty('--animation-duration', '0s');
+    const intro = document.querySelector('.intro');
+    if (intro) {
+        intro.classList.add('no-animation');
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     // Handle intro
     const urlParams = new URLSearchParams(window.location.search);

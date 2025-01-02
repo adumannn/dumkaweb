@@ -673,13 +673,14 @@ a:hover {
 .back-button {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
-    padding: 10px 20px;
-    margin-bottom: 20px;
+    gap: 6px;
+    padding: 8px 16px;
+    margin: 20px 0;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.8);
     transition: all 0.3s ease;
-    border-radius: 8px;
+    border-radius: 6px;
+    font-size: 14px;
 }
 
 .back-button:hover {
@@ -688,7 +689,7 @@ a:hover {
 }
 
 .back-button span {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* Light theme variation */
@@ -699,4 +700,13 @@ a:hover {
 .light-theme .back-button:hover {
     color: rgba(0, 0, 0, 1);
     background: rgba(0, 0, 0, 0.1);
+}
+
+/* Add a new class for no-animation state */
+.no-animation {
+    display: none !important;
+    animation: none !important;
+    -webkit-animation: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
 }
