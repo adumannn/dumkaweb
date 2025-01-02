@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Duman Abdurakhmanuly</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico">
+    <link rel="manifest" href="./images/favicon/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="intro blog-intro">
+        <h1 class="welcome-text">Blog</h1>
+    </div>
+
+    <div class="container">
+        <div class="datetime-container">
+            <p id="datetime"></p>
+        </div>
+
+        <div class="header">
+            <h1 class="main-title">Read my blog</h1>
+        </div>
+
+        <div class="blog-posts" id="blogPosts">
+            <!-- Posts will be loaded here dynamically -->
+        </div>
+    </div>
+
+    <div class="hotbar">
+        <button class="home-button" onclick="location.href='https://dumkaweb.vercel.app'">
+            <img src="./images/home.png" alt="Home">
+        </button>
+        <button class="about-button" onclick="location.href='./blog'">
+            <img src="./images/pen.png" alt="Blog">
+        </button>
+        <button class="projects-button" onclick="location.href='https://duman.vercel.app/experiments'">
+            <img src="./images/light.png" alt="Experiment">
+        </button>
+        <button class="skills-button" onclick="location.href='https://duman.vercel.app/photos'">
+            <img src="./images/camera.png" alt="Pictures">
+        </button>
+        <button class="contact-button" onclick="window.open('https://github.com/adumannn', '_blank')">
+            <img src="./images/github-mark.png" alt="GitHub">
+        </button>
+        <button class="theme-toggle">
+            <img src="./images/night-day.png" alt="Theme">
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+    <div class="version">v2.1.8</div>
+</body>
+</html> 
