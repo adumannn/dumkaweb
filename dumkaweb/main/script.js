@@ -8,8 +8,6 @@ if (noIntro === 'true') {
     }
 }
 
-//teeeest
-
 document.addEventListener('DOMContentLoaded', function() {
     // Handle intro
     const urlParams = new URLSearchParams(window.location.search);
@@ -62,6 +60,9 @@ document.addEventListener('DOMContentLoaded', function() {
             datetimeElement.textContent = dateTimeString;
         }
     }
+
+    //wewewewewewewewew
+    ///wewewewewew
 
     // Update time immediately and every second
     updateDateTime();
