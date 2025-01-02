@@ -565,3 +565,12 @@ a:hover {
         justify-content: center;
     }
 }
+
+.logo {
+    padding: 10px;
+}
+
+.logo img {
+    max-height: 50px; /* Adjust this value to control logo size */
+    width: auto;
+}
