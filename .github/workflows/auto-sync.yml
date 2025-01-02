@@ -21,6 +21,14 @@ jobs:
         run: |
           git config --global user.name 'adumannn'
           git config --global user.email 'abdurahmanuly.shymkent@gmail.com'
+          git add dumkaweb/main/script.js
+          git add dumkaweb/main/index.html
+          git add dumkaweb/main/blog.html
+          git add dumkaweb/main/post.html
+          git add dumkaweb/main/style.css
+          git add dumkaweb/main/posts/*
+          git add vercel.json
+          git add .github/workflows/auto-sync.yml
           git commit -m "Update site files" || echo "No changes to commit"
           git push origin main
           
