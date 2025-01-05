@@ -1,10 +1,9 @@
 # My First Blog Post
-This is a short preview of my blog post that will appear in the list.
+Testing the post
 
-This is the rest of my blog post content.
-It can span multiple lines.
+Huina zhazam osi zherge
+vexbolts fanum tax gyat
 
 ## Subtitles are fine too
 
-- You can use bullet points
-- And other markdown features 
+- bullet points test
